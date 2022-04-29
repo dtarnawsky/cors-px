@@ -1,0 +1,7 @@
+{
+  "name": "cs-node-proxy",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
