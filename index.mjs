@@ -14,12 +14,9 @@ const argv = yargs(process.argv)
     .help().alias('help', 'g').argv;
 
 const port = argv.port || 80;
-let redirect = argv.url;
+let redirect = argv.url || argv._[2];
 const verbose = argv.verbose;
 
-if (!redirect) {
-    redirect = argv._[2]; // If they miss the -u or --url parameter
-}
 if (redirect?.endsWith('/')) {
     redirect = redirect.slice(0, -1);
 }
