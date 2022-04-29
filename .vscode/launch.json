@@ -12,7 +12,7 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/index.mjs",
-            "args": ["--url","https://cat-fact.herokuapp.com/", "--verbose"]
+            "args": ["https://cat-fact.herokuapp.com/"]
         }
     ]
 }
