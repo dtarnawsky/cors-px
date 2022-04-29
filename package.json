@@ -8,6 +8,10 @@
     "scripts": {
         "postinstall": "node ./index.mjs"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dtarnawsky/cors-px"
+    },
     "dependencies": {
         "axios": "0.27.2",
         "body-parser": "1.20.0",
@@ -20,6 +24,7 @@
     },
     "description": "This is a simple proxy server with CORs enabled.",
     "main": "index.mjs",
+    "license": "MIT",
     "bin": {
         "cors-px": "./index.mjs"
     }
