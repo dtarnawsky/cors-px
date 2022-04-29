@@ -25,6 +25,6 @@
     "main": "index.mjs",
     "license": "MIT",
     "bin": {
-        "cors-px": "./index.mjs"
+        "cors-px": "index.mjs"
     }
 }
