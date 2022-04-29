@@ -4,14 +4,16 @@ This is a simple web server that proxies API calls to another server. It is enab
 
 Running the following will create a proxy server on `localhost` that redirects to `cat-fact.herokuapp.com`.
 ```bash
-npx dtarnawsky/cors-px https://cat-fact.herokuapp.com
+npx dtarnawsky/cors-px --url https://cat-fact.herokuapp.com
 ```
 
 You can change the port with:
-
-`npx dtarnawsky/cors-px https://cat-fact.herokuapp.com --port=6000`
+```bash
+npx dtarnawsky/cors-px -u https://cat-fact.herokuapp.com --port=6000
+```
 
 To verbosely log requests:
-
-`npx dtarnawsky/cors-px https://cat-fact.herokuapp.com --verbose`
+```bash
+npx dtarnawsky/cors-px -u https://cat-fact.herokuapp.com --verbose
+```
 
