@@ -17,7 +17,7 @@ const port = argv.port || 80;
 let redirect = argv.url;
 const verbose = argv.verbose;
 
-if (redirect.endsWith('/')) {
+if (redirect?.endsWith('/')) {
     redirect = redirect.slice(0, -1);
 }
 

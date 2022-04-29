@@ -5,8 +5,7 @@
     "homepage": "",
     "private": false,
     "type": "module",
-    "scripts": {
-        "postinstall": "node ./index.mjs"
+    "scripts": {        
     },
     "repository": {
         "type": "git",
@@ -24,7 +23,5 @@
     "description": "This is a simple proxy server with CORs enabled.",
     "main": "index.mjs",
     "license": "MIT",
-    "bin": {
-        "cors-px": "index.mjs"
-    }
+    "bin": "./index.mjs"
 }
